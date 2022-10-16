@@ -3,7 +3,7 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
 }
 resource "aws_s3_bucket" "a11222onebucket" {
-   bucket = "testing-s3-with-terraform"
+   bucket = "testingjoaliah-s3-with-terraform"
    acl = "private"
    versioning {
       enabled = true
